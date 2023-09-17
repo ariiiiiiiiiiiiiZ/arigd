@@ -1,0 +1,23 @@
+baseURL = "https://example.com"
+
+theme = "hugo-bearblog"
+
+title = "Ari's Blog"
+author = "ajz"
+copyright = "is it copyrighted?"
+language-code = "en-US"
+
+# augh
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+blog = "/:slug"
+tags = "/blog/:slug"
+
+[params]
+description = "deep thinking"
+
+title = "Ari's Blog"
